@@ -1,19 +1,24 @@
 {
-   "name": "Hotel",
+   "name": "CoCoon Kohbolt Rental",
    "version": "1.0.0",
-   "dependencies": {},
+   "dependencies": {
+      "online_booking_engine" : "1.0.0",
+      "todays_panel" : "1.0.0",
+      "invoice_email" : "1.0.0"      
+   },
    "settings": {
-      "unit_name":{
-         "singular": "room", 
+      "unit_name":{ 
+         "singular": "room",
          "plural" : "rooms" 
-      },
+        },
       "unit_type_name" :  {
          "singular":"room type",
          "plural": "room types"
-      },
-      "send_invoice_email_automatically" : true,
+      },   
       "display_tooltip" : true,
-      "is_total_balance_include_forecast" : true
+      "hourly_booking_enabled" : true,
+      "allow_free_bookings" : true,
+      "force_room_selection" : true      
    }
 }
   
